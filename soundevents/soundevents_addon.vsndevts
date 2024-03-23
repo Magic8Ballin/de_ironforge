@@ -46,96 +46,20 @@
 //reverb_24_largeBathroom
 
 
-	doormove = 
+	ironforge = 
 	{
 		type = "csgo_mega"
-		volume = 3.000000
+		volume = 6.000000
 		pitch = 1.000000
-		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
 		occlusion_intensity = 0.800000
 		display_broadcast = true
-		use_fadetime_volume_mapping_curve = false
 		instance_limit = 1.000000
 		block_duration = 0.300000
 		block_distance = 100.000000
 		restrict_source_reverb = true
-		vsnd_files_track_01 = "sounds/doormove_02.vsnd"
-	}
-
-	doormove2 = 
-	{
-		type = "csgo_mega"
-		volume = 1.0
-		pitch = 1.000000
-		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.300000
-		mixgroup = "World"
-		occlusion_intensity = 0.800000
-		use_fadetime_volume_mapping_curve = false
-		instance_limit = 1.000000
-		restrict_source_reverb = true
-		vsnd_files_track_01 = "sounds/doormove_02.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				1400.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		fadetime_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				-1.691176,
-				-1.691176,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.300000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		vsnd_duration = 0.496122
-	}
-
-
-	"doormove_old" = 
-	{
-		type = "csgo_mega"
-		base = "amb.soundscapeParent.base"
-		volume = "1"
-		vsnd_files_track_01 = "sounds/doormove_02.vsnd"
-	}
-	
-		"ambient_doorstop" = 
-	{
-		base = "amb.looping.stereo.base"
-		volume = 10000
-		vsnd_files_track_01 = "sounds/doorstop_05.vsnd"
+		vsnd_files_track_01 = "sounds/ironforge.vsnd"
 	}
 	
 	"ambient_example.outdoors" = 
