@@ -49,7 +49,7 @@
 	ironforge = 
 	{
 		type = "csgo_mega"
-		volume = 6.000000
+		volume = 5.000000
 		pitch = 1.000000
 		reverb_wet = 0.300000
 		mixgroup = "World"

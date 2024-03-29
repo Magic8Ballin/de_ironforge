@@ -4,6 +4,9 @@ Layer0
 {
 	shader "csgo_static_overlay.vfx"
 
+	//---- Blend Mode ----
+	F_BLEND_MODE 1 // Translucent
+
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_flTexCoordRotation "0.000"
@@ -22,4 +25,8 @@ Layer0
 	//---- Texture Address Mode ----
 	g_nTextureAddressModeU "0" // Wrap
 	g_nTextureAddressModeV "0" // Wrap
+
+	//---- Translucent ----
+	g_flOpacityScale "1.000"
+	TextureTranslucency "materials/ironforge/dodgeball-trans.jpg"
 }
