@@ -21,4 +21,18 @@ Layer0
 	//---- Translucent ----
 	DecalTranslucency "materials/default/default_trans.tga"
 	g_flAlphaTestReference "0.000"
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Translucent"
+		{
+		}
+	}
 }

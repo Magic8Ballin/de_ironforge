@@ -17,7 +17,7 @@ Layer0
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
-	TextureColor "materials/ironforge/dodgeball.jpg"
+	TextureColor "materials/ironforge/dodgeball.png"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
@@ -28,5 +28,22 @@ Layer0
 
 	//---- Translucent ----
 	g_flOpacityScale "1.000"
-	TextureTranslucency "materials/ironforge/dodgeball-trans.jpg"
+	TextureTranslucency "materials/ironforge/dodgeball-trans.png"
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Translucent"
+		{
+		}
+	}
 }
